@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*body {
+	width: 30rem;
+}*/
+/*Styling the heading*/
+.top h1 {
+	font-size: 60px;
+	font-family: 'Raleway', sans-serif;
+	color: #235952;
+}
+
+/*Styling the navigation*/
+.box a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+.box li {
+	list-style: none;
+	margin: 10px;
+}
+
+/*.line {
+	width: 80%;
+	align-content: left;
+}*/
+/*Styling the buttons*/
+#active {
+    color: #512b58;
+    background-color: #ffe2ff;
+}
+
+button {
+	 background-color: #edffea;
+	 border-radius: 5px;
+	 color: #235952;
+	 padding: 5px;
+	 margin-top: 40px;
+	 font-size: 20px;
+	 font-family: 'Raleway', sans-serif;
+}
+
+.controls li {
+	display: inline;
+
+}
+
+/*Styling the Content*/
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+	color: #512b58;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #1eb2a6;
+	font-size: 0.75rem;
+}
+
+/*Styling the footer*/
+
+.box2 li {
+	list-style: none;
+	margin: 10px;
+}
+
+.box2 a {
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/*media query for responsive design*/
+@media (max-width: 60rem) {
+
+	h3 {
+		font-size: 1rem;
+	}
+}
